@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.renesas.cdt.managedbuild.gnuarm.config.elf.debug.702950224">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.renesas.cdt.managedbuild.gnuarm.config.elf.debug.702950224" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="${cross_rm} -rf" description="" id="com.renesas.cdt.managedbuild.gnuarm.config.elf.debug.702950224" name="Debug" parent="com.renesas.cdt.managedbuild.gnuarm.config.elf.debug">
+					<folderInfo id="com.renesas.cdt.managedbuild.gnuarm.config.elf.debug.702950224." name="/" resourcePath="">
+						<toolChain id="com.renesas.cdt.managedbuild.gnuarm.toolchain.elf.debug.2568334" name="GCC ARM Embedded" superClass="com.renesas.cdt.managedbuild.gnuarm.toolchain.elf.debug">
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.2091364063" name="Optimization Level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level" value="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.more" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.2094774721" name="Message length (-fmessage-length=0)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.1896987470" name="'char' is signed (-fsigned-char)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.980880799" name="Function sections (-ffunction-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.945446066" name="Data sections (-fdata-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.621789856" name="Debug level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level" value="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.max" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.445616537" name="Debug format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.421890427" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name" value="GNU Tools for ARM Embedded Processors" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.767974562" name="Architecture" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.architecture" value="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.arm" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.546802558" name="ARM family" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.mcpu.cortex-m4" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.1260639875" name="Instruction set" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.thumb" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.629967765" name="Prefix" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix" value="arm-none-eabi-" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.1801817330" name="C compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.c" value="gcc" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.1272448489" name="C++ compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp" value="g++" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.950401667" name="Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar" value="ar" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1440808101" name="Hex/Bin converter" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy" value="objcopy" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.1505491796" name="Listing generator" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump" value="objdump" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.2073762934" name="Size command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.size" value="size" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.781925476" name="Build command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.make" value="make" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.1446496479" name="Remove command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm" value="rm" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.2101554390" name="Create flash image" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.229201029" name="Print size" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.unit.1954629947" name="FPU Type" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.unit" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.unit.fpv4spd16" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.1478725330" name="Float ABI" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.hard" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.unused.314367011" name="Warn on various unused elements (-Wunused)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.unused" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.uninitialized.1170175398" name="Warn on uninitialized variables (-Wuninitialised)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.uninitialized" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.1032067320" name="Enable all common warnings (-Wall)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn.1430495063" name="Enable extra warnings (-Wextra)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.missingdeclaration.1730128324" name="Warn on undeclared global function (-Wmissing-declaration)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.missingdeclaration" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.conversion.837567750" name="Warn on implicit conversions (-Wconversion)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.conversion" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.pointerarith.1499946750" name="Warn if pointer arithmetic (-Wpointer-arith)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.pointerarith" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.shadow.1065023049" name="Warn if shadowed variable (-Wshadow)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.shadow" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.logicalop.1090526000" name="Warn if suspicious logical ops (-Wlogical-op)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.logicalop" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.agreggatereturn.701274517" name="Warn if struct is returned (-Wagreggate-return)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.agreggatereturn" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.floatequal.13283096" name="Warn if floats are compared as equal (-Wfloat-equal)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.floatequal" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.spconstant.2087743803" name="Single precision constants (-fsingle-precision-constant)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.spconstant" value="true" valueType="boolean"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform.435748007" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/S7_ALL_gx_audio_player_1_1_0}/Debug" id="ilg.gnuarmeclipse.managedbuild.cross.builder.1896729714" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="ilg.gnuarmeclipse.managedbuild.cross.builder">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="Debug"/>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="Release"/>
+								</outputEntries>
+							</builder>
+							<tool commandLinePattern="${SECURE_BUILD_COMMAND} ${COMMAND} ${cross_toolchain_flags} ${FLAGS} -c ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.122513825" name="Cross ARM GNU Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor.1332261316" name="Use preprocessor" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.80039937" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/bsp"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/driver"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/bsp"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/bsp/cmsis/Include"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/driver/api"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/driver/instances"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/src"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/src/synergy_gen"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/framework/api"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/framework/instances"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework/tes"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/framework/tes"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework/el"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/framework/el"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/src/framework/el/tx"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/src/framework/el/ux"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/src"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/framework/api"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/framework/instances"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework/tes"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/framework/tes"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework/el"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/framework/el"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/src/framework/el/tx"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/src/framework/el/ux"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/bsp"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/driver"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/bsp"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/bsp/cmsis/Include"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/driver/api"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/driver/instances"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/src/synergy_gen"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/bsp"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/driver"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/bsp"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/bsp/cmsis/Include"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/driver/api"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/driver/instances"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/src"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/src/synergy_gen"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/framework/api"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/framework/instances"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework/tes"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/framework/tes"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework/el"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/framework/el"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/src/framework/el/tx"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/src/framework/el/ux"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/framework/api"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/framework/instances"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework/tes"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/framework/tes"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework/el"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/framework/el"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/src/framework/el/tx"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/src/framework/el/ux"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/bsp"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/driver"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/bsp"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/bsp/cmsis/Include"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/driver/api"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/driver/instances"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/src}&quot;"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/src/synergy_gen"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/framework}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/framework/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/framework/instances}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/framework/tes}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/framework/tes}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/framework/el}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/framework/el}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/tx}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/ux}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/driver}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/bsp/cmsis/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/driver/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/driver/instances}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/synergy_gen}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/tx/tx_src}&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs.265973288" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_RENESAS_SYNERGY_"/>
+									<listOptionValue builtIn="false" value="SF_MESSAGE_CLASS"/>
+								</option>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.2135535214" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
+							</tool>
+							<tool commandLinePattern="${SECURE_BUILD_COMMAND} ${COMMAND} ${cross_toolchain_flags} ${FLAGS} -c ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} -x c ${INPUTS}" id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.501508524" name="Cross ARM C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.1524696062" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_RENESAS_SYNERGY_"/>
+									<listOptionValue builtIn="false" value="SF_MESSAGE_CLASS"/>
+								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std.1671008581" name="Language standard" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std" useByScannerDiscovery="true" value="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std.c99" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.608568538" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/bsp"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/driver"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/bsp"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/bsp/cmsis/Include"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/driver/api"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/driver/instances"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/src"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/src/synergy_gen"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/framework/api"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/framework/instances"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework/tes"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/framework/tes"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework/el"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/framework/el"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/src/framework/el/tx"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/src/framework/el/ux"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/src"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/framework/api"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/framework/instances"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework/tes"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/framework/tes"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework/el"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/framework/el"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/src/framework/el/tx"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/src/framework/el/ux"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/bsp"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy_cfg/ssp_cfg/driver"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/bsp"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/bsp/cmsis/Include"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/driver/api"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/synergy/ssp/inc/driver/instances"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_gx_audio_player_1_1_0/src/synergy_gen"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/bsp"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/driver"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/bsp"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/bsp/cmsis/Include"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/driver/api"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/driver/instances"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/src"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/src/synergy_gen"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/framework/api"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/framework/instances"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework/tes"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/framework/tes"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework/el"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/framework/el"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/src/framework/el/tx"/>
+									<listOptionValue builtIn="false" value="C:/Synergy/WORKSPACES/Releases/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/synergy/ssp/src/framework/el/ux"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/framework/api"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/framework/instances"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework/tes"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/framework/tes"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/framework/el"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/framework/el"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/src/framework/el/tx"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/src/framework/el/ux"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/bsp"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy_cfg/ssp_cfg/driver"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/bsp"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/bsp/cmsis/Include"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/driver/api"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/synergy/ssp/inc/driver/instances"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/S7_ALL_guix_audio_player_1_1_0/S7_ALL_guix_audio_player_1_1_0/src}&quot;"/>
+									<listOptionValue builtIn="false" value="../S7_ALL_guix_audio_player_1_1_0/src/synergy_gen"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/framework}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/framework/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/framework/instances}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/framework/tes}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/framework/tes}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/framework/el}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/framework/el}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/tx}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/ux}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/driver}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/bsp/cmsis/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/driver/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/driver/instances}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/synergy_gen}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/tx/tx_src}&quot;"/>
+								</option>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.607425151" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+							</tool>
+							<tool commandLinePattern="${SECURE_BUILD_COMMAND} ${COMMAND} ${cross_toolchain_flags} ${FLAGS} -c ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} -x cpp ${INPUTS}" id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.1715295625" name="Cross ARM C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler"/>
+							<tool commandLinePattern="${COMMAND} ${cross_toolchain_flags} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} -Wl,--start-group ${INPUTS} -Wl,--end-group" id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.1806138191" name="Cross ARM C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections.1707968378" name="Remove unused sections (-Xlinker --gc-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other.1402547644" name="Other linker flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other" value="--specs=rdimon.specs" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths.545713802" name="Library search path (-L)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/fx/cm4_gcc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/gx/cm4_gcc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/tx/cm4_gcc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/ux/cm4_gcc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/ux_host_class_storage/cm4_gcc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/bsp/cmsis/DSP_Lib/cm4_gcc}&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs.1441932074" name="Libraries (-l)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="fx"/>
+									<listOptionValue builtIn="false" value="gx"/>
+									<listOptionValue builtIn="false" value="tx"/>
+									<listOptionValue builtIn="false" value="ux"/>
+									<listOptionValue builtIn="false" value="ux_host_class_storage"/>
+									<listOptionValue builtIn="false" value="DSP_Lib"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile.1676570573" name="Script files (-T)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/script}/s5d9.ld&quot;"/>
+								</option>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input.1632368404" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool commandLinePattern="${COMMAND} ${cross_toolchain_flags} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} -Wl,--start-group ${INPUTS} -Wl,--end-group" id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.526312166" name="Cross ARM C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.gcsections.191189213" name="Remove unused sections (-Xlinker --gc-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.gcsections" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.other.802698553" name="Other linker flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.other" value="--specs=rdimon.specs" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.scriptfile.646629401" name="Script files (-T)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.scriptfile" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/script}/s5d9.ld&quot;"/>
+								</option>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.812555319" name="Cross ARM GNU Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.1736913430" name="Cross ARM GNU Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createflash.choice.2070616816" name="Output file format (-O)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createflash.choice" value="ilg.gnuarmeclipse.managedbuild.cross.option.createflash.choice.srec" valueType="enumerated"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.62925831" name="Cross ARM GNU Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.source.1490718968" name="Display source (--source|-S)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.source" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.allheaders.824644333" name="Display all headers (--all-headers|-x)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.allheaders" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.demangle.539042977" name="Demangle names (--demangle|-C)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.demangle" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.linenumbers.467247411" name="Display line numbers (--line-numbers|-l)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.linenumbers" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.wide.56620032" name="Wide lines (--wide|-w)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.wide" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.1153705326" name="Cross ARM GNU Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format.1240670502" name="Size format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="synergy"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="com.renesas.cdt.managedbuild.core.toolchainInfo"/>
+		</cconfiguration>
+		<cconfiguration id="com.renesas.cdt.managedbuild.gnuarm.config.elf.release.25100454">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.renesas.cdt.managedbuild.gnuarm.config.elf.release.25100454" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="${cross_rm} -rf" description="" id="com.renesas.cdt.managedbuild.gnuarm.config.elf.release.25100454" name="Release" parent="com.renesas.cdt.managedbuild.gnuarm.config.elf.release">
+					<folderInfo id="com.renesas.cdt.managedbuild.gnuarm.config.elf.release.25100454." name="/" resourcePath="">
+						<toolChain id="com.renesas.cdt.managedbuild.gnuarm.toolchain.elf.release.1516285656" name="GCC ARM Embedded" superClass="com.renesas.cdt.managedbuild.gnuarm.toolchain.elf.release">
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.113464061" name="Optimization Level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level" value="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.more" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.1385274325" name="Message length (-fmessage-length=0)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.1687028797" name="'char' is signed (-fsigned-char)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.560144887" name="Function sections (-ffunction-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.1558940295" name="Data sections (-fdata-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.123177776" name="Debug level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.901830618" name="Debug format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.82465420" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name" value="GNU Tools for ARM Embedded Processors" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1620051206" name="Architecture" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.architecture" value="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.arm" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.811566073" name="ARM family" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.mcpu.cortex-m4" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.251664686" name="Instruction set" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.thumb" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.1200205927" name="Prefix" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix" value="arm-none-eabi-" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.1586555678" name="C compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.c" value="gcc" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.1168436924" name="C++ compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp" value="g++" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.1175532188" name="Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar" value="ar" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.140684906" name="Hex/Bin converter" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy" value="objcopy" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.318257457" name="Listing generator" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump" value="objdump" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.1929078358" name="Size command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.size" value="size" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.1666495560" name="Build command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.make" value="make" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.1286292822" name="Remove command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm" value="rm" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.841403728" name="Create flash image" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.1278805566" name="Print size" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.unit.161015414" name="FPU Type" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.unit" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.unit.fpv4spd16" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.793536761" name="Float ABI" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.hard" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.unused.655686647" name="Warn on various unused elements (-Wunused)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.unused" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.uninitialized.1810497339" name="Warn on uninitialized variables (-Wuninitialised)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.uninitialized" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.487975536" name="Enable all common warnings (-Wall)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn.1873605912" name="Enable extra warnings (-Wextra)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.missingdeclaration.1422012926" name="Warn on undeclared global function (-Wmissing-declaration)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.missingdeclaration" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.conversion.505955754" name="Warn on implicit conversions (-Wconversion)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.conversion" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.pointerarith.200999272" name="Warn if pointer arithmetic (-Wpointer-arith)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.pointerarith" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.shadow.1216905726" name="Warn if shadowed variable (-Wshadow)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.shadow" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.logicalop.134856367" name="Warn if suspicious logical ops (-Wlogical-op)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.logicalop" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.agreggatereturn.1141179029" name="Warn if struct is returned (-Wagreggate-return)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.agreggatereturn" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.floatequal.1816608742" name="Warn if floats are compared as equal (-Wfloat-equal)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.floatequal" value="true" valueType="boolean"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform.1935847406" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/S7_ALL_gx_audio_player_1_1_0}/Release" id="ilg.gnuarmeclipse.managedbuild.cross.builder.838977853" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="ilg.gnuarmeclipse.managedbuild.cross.builder"/>
+							<tool commandLinePattern="${SECURE_BUILD_COMMAND} ${COMMAND} ${cross_toolchain_flags} ${FLAGS} -c ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.618125332" name="Cross ARM GNU Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor.900697164" name="Use preprocessor" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.1751459074" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/driver}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/bsp/cmsis/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/driver/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/driver/instances}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/synergy_gen}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/framework}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/framework/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/framework/instances}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/framework/tes}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/framework/tes}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/framework/el}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/framework/el}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/tx}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/ux}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/tx/tx_src}&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs.2049527677" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="SF_MESSAGE_CLASS"/>
+								</option>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.586812348" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
+							</tool>
+							<tool commandLinePattern="${SECURE_BUILD_COMMAND} ${COMMAND} ${cross_toolchain_flags} ${FLAGS} -c ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} -x c ${INPUTS}" id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1247948277" name="Cross ARM C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.2104220188" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_RENESAS_SYNERGY_"/>
+									<listOptionValue builtIn="false" value="SF_MESSAGE_CLASS"/>
+								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std.1224947847" name="Language standard" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std" useByScannerDiscovery="true" value="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std.c99" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.137480508" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/driver}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/bsp/cmsis/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/driver/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/driver/instances}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/synergy_gen}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/framework}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/framework/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/framework/instances}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/framework/tes}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/framework/tes}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy_cfg/ssp_cfg/framework/el}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/inc/framework/el}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/tx}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/ux}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/tx/tx_src}&quot;"/>
+								</option>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.230636540" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+							</tool>
+							<tool commandLinePattern="${SECURE_BUILD_COMMAND} ${COMMAND} ${cross_toolchain_flags} ${FLAGS} -c ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} -x cpp ${INPUTS}" id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.352645203" name="Cross ARM C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler"/>
+							<tool commandLinePattern="${COMMAND} ${cross_toolchain_flags} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} -Wl,--start-group ${INPUTS} -Wl,--end-group" id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.867804304" name="Cross ARM C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections.1989551454" name="Remove unused sections (-Xlinker --gc-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other.1893296782" name="Other linker flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other" value="--specs=rdimon.specs" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths.309637477" name="Library search path (-L)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/bsp/cmsis/DSP_Lib/cm4_gcc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/gx/cm4_gcc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/tx/cm4_gcc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/fx/cm4_gcc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/ux/cm4_gcc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/ux_host_class_hub/cm4_gcc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/synergy/ssp/src/framework/el/ux_host_class_storage/cm4_gcc}&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs.56712195" name="Libraries (-l)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="DSP_Lib"/>
+									<listOptionValue builtIn="false" value="gx"/>
+									<listOptionValue builtIn="false" value="tx"/>
+									<listOptionValue builtIn="false" value="fx"/>
+									<listOptionValue builtIn="false" value="ux"/>
+									<listOptionValue builtIn="false" value="ux_host_class_storage"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile.563086094" name="Script files (-T)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/script}/s5d9.ld&quot;"/>
+								</option>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input.314153470" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool commandLinePattern="${COMMAND} ${cross_toolchain_flags} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} -Wl,--start-group ${INPUTS} -Wl,--end-group" id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.1740337713" name="Cross ARM C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.gcsections.1792875052" name="Remove unused sections (-Xlinker --gc-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.gcsections" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.other.919567162" name="Other linker flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.other" value="--specs=rdimon.specs" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.scriptfile.16673645" name="Script files (-T)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.scriptfile" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/script}/s5d9.ld&quot;"/>
+								</option>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.1451347002" name="Cross ARM GNU Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.1095790836" name="Cross ARM GNU Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createflash.choice.496534885" name="Output file format (-O)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createflash.choice" value="ilg.gnuarmeclipse.managedbuild.cross.option.createflash.choice.srec" valueType="enumerated"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.1794679394" name="Cross ARM GNU Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.source.1600225246" name="Display source (--source|-S)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.source" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.allheaders.2100537662" name="Display all headers (--all-headers|-x)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.allheaders" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.demangle.1624518136" name="Demangle names (--demangle|-C)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.demangle" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.linenumbers.653471698" name="Display line numbers (--line-numbers|-l)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.linenumbers" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.wide.399560679" name="Wide lines (--wide|-w)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.wide" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.800428458" name="Cross ARM GNU Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format.231154541" name="Size format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="synergy"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="S5_PK_guix_audio_player.com.renesas.cdt.managedbuild.gnuarm.target.elf.1185886070" name="Executable" projectType="com.renesas.cdt.managedbuild.gnuarm.target.elf"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gnuarm.config.elf.debug.702950224;com.renesas.cdt.managedbuild.gnuarm.config.elf.debug.702950224.;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.501508524;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.607425151">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gnuarm.config.elf.release.25100454;com.renesas.cdt.managedbuild.gnuarm.config.elf.release.25100454.;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1247948277;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.230636540">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/S5_PK_guix_audio_player_new"/>
+			<resource resourceType="PROJECT" workspacePath="/SK_S7_Guix_Audio_Player"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/S5_PK_guix_audio_player_new"/>
+			<resource resourceType="PROJECT" workspacePath="/SK_S7_Guix_Audio_Player"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>

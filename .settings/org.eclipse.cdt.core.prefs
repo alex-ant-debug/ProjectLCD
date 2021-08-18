@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+environment/project/com.renesas.cdt.managedbuild.gnuarm.config.elf.debug.702950224/SECURE_BUILD_COMMAND/delimiter=;
+environment/project/com.renesas.cdt.managedbuild.gnuarm.config.elf.debug.702950224/SECURE_BUILD_COMMAND/operation=append
+environment/project/com.renesas.cdt.managedbuild.gnuarm.config.elf.debug.702950224/SECURE_BUILD_COMMAND/value=${eclipse_home}../Utilities/isdebuild
+environment/project/com.renesas.cdt.managedbuild.gnuarm.config.elf.debug.702950224/append=true
+environment/project/com.renesas.cdt.managedbuild.gnuarm.config.elf.debug.702950224/appendContributed=true
+environment/project/com.renesas.cdt.managedbuild.gnuarm.config.elf.release.25100454/append=true
+environment/project/com.renesas.cdt.managedbuild.gnuarm.config.elf.release.25100454/appendContributed=true
